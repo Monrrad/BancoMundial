@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el logotipo */
+img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilos para el mensaje de confirmación */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Estilos para el botón "Continuar" */
+button {
+    background-color: #0074cc;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón "Continuar" al pasar el cursor */
+button:hover {
+    background-color: #0059a6;
+}

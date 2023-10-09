@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el logotipo */
+img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos para el mensaje */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilos para el campo de entrada de cantidad */
+input[type="number"] {
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+/* Estilos para los botones */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para los botones al pasar el cursor */
+button:hover {
+    background-color: #0059a6;
+}
+
+/* Estilos para el botón "Cancelar" */
+button:first-child {
+    background-color: #ff0000;
+    margin-right: 10px;
+}
